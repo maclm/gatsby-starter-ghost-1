@@ -88,7 +88,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 {/* <Link to="/">{site.title}</Link> © 2021 &mdash; Published with <a className="site-foot-nav-item" href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a> */}
                             </div>
                             <div className="site-foot-nav-center">
-                                <a className="site-foot-nav-item" href="https://www.museedecharlevoix.qc.ca/" target="_blank" rel="noopener noreferrer">Musée de Charlevoiux</a>
+                                <a className="site-foot-nav-item" href="https://www.museedecharlevoix.qc.ca/" target="_blank" rel="noopener noreferrer">Musée de Charlevoix</a>
                             </div>
                             <div className="site-foot-nav-right">
                                 {/* <Navigation data={site.navigation} navClass="site-foot-nav-item" /> */}
