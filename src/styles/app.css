@@ -545,7 +545,7 @@ h6 {
 .post-full-content {
     max-width: 720px;
     margin: 0 auto;
-    background: #fff;
+    background: var(--color-bg);
 }
 
 /* m210330_1908 peut-être ici pour le trop de marge en entête ? */

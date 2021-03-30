@@ -127,7 +127,7 @@ export const ghostPostFields = graphql`
         codeinjection_head
         codeinjection_styles
         comment_id
-        reading_time
+        // reading_time
     }
 `
 
@@ -218,7 +218,7 @@ export const ghostPageFields = graphql`
         codeinjection_head
         codeinjection_styles
         comment_id
-        reading_time
+        // reading_time
     }
 `
 
