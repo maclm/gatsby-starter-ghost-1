@@ -548,6 +548,7 @@ h6 {
     background: #fff;
 }
 
+/* m210330_1908 peut-être ici pour le trop de marge en entête ? */
 .post-feature-image img {
     margin: 0 0 3vw;
     width: 100%;
