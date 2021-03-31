@@ -545,7 +545,7 @@ h6 {
 .post-full-content {
     max-width: 720px;
     margin: 0 auto;
-    background: #fff;
+    background: var(--color-bg);
 }
 
 /* m210330_1908 peut-être ici pour le trop de marge en entête ? */
@@ -665,7 +665,7 @@ h6 {
 
 .site-head {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 0;
     color: var(--color-border);
     background: var(--color-base);
     background-position: center;
@@ -697,6 +697,10 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.site-mast-center p {
+    margin: 0
 }
 
 .site-mast-right {
@@ -986,7 +990,7 @@ h6 {
 /* ---------------------------------------------------------- */
 
 .site-foot {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 30px 0;
     color: rgba(255,255,255,0.7);
     font-size: 1.3rem;
     background: var(--color-base);
